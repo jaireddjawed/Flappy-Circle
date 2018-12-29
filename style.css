@@ -1,0 +1,68 @@
+body{
+    background-color: #555;
+    font-family:"Indie Flower", cursive;
+}
+#canvas {
+    border: 2px solid rgba(0,0,0,.5);
+    border-radius: 20px;
+    background: gray 
+    border: 2px solid black;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    position:absolute;
+    z-index: -10;
+    cursor:hand
+}
+
+#score{
+padding-top:10px;
+overflow:visible ;
+ height:50px;
+ Width:196px;
+ color: white;
+ text-align:center;
+ margin: auto;
+ top:0; left: 0; bottom: 56px; right: 100px; 
+ position:absolute;
+
+}
+
+#buttons{
+padding-top:10px;
+ height:42px;
+ Width:196px;
+
+ text-align:center;
+ margin: auto;
+ top:0; left: 0; bottom: -63px; right: 100px; 
+ position:absolute;
+
+}
+
+#lost{
+    border-radius: 10px;
+ border: 2px solid black;
+ height:120px;
+ Width:200px;
+ font-size: 200%;
+ text-align:center; 
+ margin: auto;
+ top: 0px; left: 0; bottom: 0; right: 0; 
+ position:absolute;
+z-index:10000;
+display:none;
+background-color:darkgray;
+}
+
+#start{
+
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    position:absolute;
+ color: white;
+ height:360px;
+ Width:240px;
+ font-size: 200%;
+ text-align:center;
+z-index:1000
+}
