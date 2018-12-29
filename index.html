@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flappy Circle</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+         <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+         <script type="text/javascript" src="script.js"></script>
+        <style type=text/css> 
+        #button { 
+            position: absolute;
+            margin-left:-35px;
+            margin-top:-80px;
+            border-radius: 5px;
+            background-Color: darkgray;
+            width: 80px; height: 30px;
+            color: white; 
+            text-align:center;
+            padding: 0px;
+            font-size: 50%;
+            cursor:hand;
+            font-family: "indie flower", cursive;
+        }
+ 
+        #button2 { 
+            background-Color: ;
+            width: 100px; height: 30px;
+            color: black;
+            text-align:center;
+            padding: 0px;
+            font-size: 50%;
+            cursor:hand;
+            font-family: "indie flower", cursive;
+        }
+ 
+        </style>
+    
+    </head>
+    
+    <body>
+        <div id="start">
+            <br>Score:0<br><br><br>Flappy Circle<br><br><br><br><input type=button id=button onclick= "alert('Press space bar or click to flap. Try to get as far as possible by flying between pipes'); start()" value="Play (P)"></div>
+                <div id=lost><div id=score></div><div id=buttons></div></div>
+      
+
+        <canvas id="canvas" width="240" height="360"></canvas>
+    <div id=hi></div>
+        
+    </body>
+</html>
